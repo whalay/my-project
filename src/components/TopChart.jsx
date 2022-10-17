@@ -4,7 +4,7 @@ import stroke from "../assets/stroke.png";
 const TopChart = () => {
   return (
     <div className="py-5 md:p-0 md:flex-1 px-5">
-      <h1 className="text-2xl pb-5 ">Top Charts</h1>
+      <h1 className="text-2xl pb-1">Top Charts</h1>
       <div className="flex md:flex-col gap-6  w-full overflow-x-auto mt-5 bar .bar">
    
           <div className="bg-black   md:w-full min-w-[300px] flex justify-between gap-24 rounded-m-auto p-5 ">

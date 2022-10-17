@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="container max-w-[450px] md:max-w-full bg-zinc-800 p-2 md:p-5 md:m-auto ">
+    <div className="absolute top-0 left-0  m-5 ">
       <div className="flex justify-between md:justify-start gap-7">
         <div className="flex justify-between gap-5 px-2">
           <img src={menu} alt="" className="md:hidden" onClick={navHandler}/>
