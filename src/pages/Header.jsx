@@ -1,26 +1,21 @@
-import SideNav from "../components/SideNav";
-import mobilerec from "../assets/mobilerec.png";
-import mobilevec from "../assets/mobilevec.png";
-import desktopvec from "../assets/desktopvec.png";
-import desktoprec from "../assets/desktoprec.png";
-import music1 from "../assets/music1.png";
-import stroke from "../assets/stroke.png";
-import player from "../assets/player.png";
-import play from "../assets/play.png";
-import next from "../assets/next.png";
-import photo from "../assets/photo.png";
-import frame from "../assets/like-frame.png";
-
-import new1 from "../assets/new1.png";
-
-import new3 from "../assets/new3.png";
 import Popular from "../components/Popular";
 import TopChart from "../components/TopChart";
 import Latest from "../components/Latest";
 
+import mobilerec from "../assets/mobilerec.png";
+import mobilevec from "../assets/mobilevec.png";
+import desktopvec from "../assets/desktopvec.png";
+import desktoprec from "../assets/desktoprec.png";
+import photo from "../assets/photo.png";
+import frame from "../assets/like-frame.png";
+import mframe from "../assets/Mframe.png";
+
+
+
+
 const Header = () => {
   return (
-    <div className="container max-w-[450px] md:max-w-full bg-zinc-800 text-white px-1 md:pt-20 md:pl-24">
+    <div className="container max-w-[450px] md:max-w-full bg-zinc-800 text-white px-1 pt-20 md:pt-20 md:pl-24 z-50">
       <div className="md:flex justify-between gap-5 md:pr-10">
         <div className="relative md:flex-initial ">
           <img src={mobilerec} alt="" className="md:hidden m-auto" />
@@ -42,7 +37,7 @@ const Header = () => {
             <span>
               <p>Curated Playlist</p>
             </span>
-            <span className=" w-70 ">
+            <span className=" w-70 pt-20 md:pt-0 ">
               <h1 className="text-4xl font-bold py-3">R & B Hits</h1>
               <p className="w-[20em] text-md font-normal">
                 All mine. lie again, petty call me everyday out of time. no bad
@@ -50,7 +45,8 @@ const Header = () => {
               </p>
             </span>
             <span>
-              <img src={frame} alt="" />
+              <img src={frame} alt="" className="hidden md:block"/>
+              <img src={mframe} alt="" className="md:hidden" />
             </span>
           </span>
         </div>

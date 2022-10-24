@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Header from "./pages/Header";
@@ -14,15 +14,20 @@ function App() {
       <Navbar />
 
       <SideNav />
-      <Route path="/home">
-        <Header />
-      </Route>
-      <Route path="/collection">
-        <Collections />
-      </Route>
-      <Route path="/chart">
-        <TopChartDetail />
-      </Route>
+      <Switch>
+        <Route path="/" exact>
+          <Redirect to="/home" />
+        </Route>
+        <Route path="/home">
+          <Header />
+        </Route>
+        <Route path="/collection">
+          <Collections />
+        </Route>
+        <Route path="/chart/:detailId">
+          <TopChartDetail />
+        </Route>
+      </Switch>
       <Playing />
     </div>
   );

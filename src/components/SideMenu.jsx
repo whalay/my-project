@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import home from "../assets/sidebar/Home.png";
 import frame from "../assets/sidebar/frame.png";
 import radio from "../assets/sidebar/radio.png";
@@ -9,26 +11,32 @@ const Menu = [
   {
     image: home,
     title: "Home",
+    url: 'home'
   },
   {
     image: music,
     title: "My Collection",
+    url: 'home'
   },
   {
     image: radio,
     title: "Radio",
+    url: 'home'
   },
   {
     image: video,
     title: "Music Video",
+    url: 'home'
   },
   {
     image: frame,
     title: "Profile",
+    url: 'home'
   },
   {
     image: logout,
     title: "Logout",
+    url: 'home'
   },
 ];
 
@@ -46,7 +54,8 @@ const SideMenu = (props) => {
           </div>
         ))}
       </div>
-      <span className="absolute top-2 right-2 p-10"><button onClick={props.navHandler}>close</button></span>
+      <span claz        
+      ssName="absolute top-2 right-2 p-10"><button onClick={props.navHandler}>close</button></span>
     </div>
   );
 };
