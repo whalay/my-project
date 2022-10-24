@@ -1,4 +1,4 @@
-import stroke from "../assets/stroke.png";
+import icon from "../assets/stroke.png";
 import Lead from "../assets/Lead-image.png";
 import music1 from "../assets/music1.png";
 
@@ -17,7 +17,7 @@ export const chart = [
       artist: "Swean Sadder",
       duration: "2:22:22",
       image: Lead,
-      logo: stroke,
+      logo: icon,
     },
     {
       id: '2',
