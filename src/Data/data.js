@@ -1,6 +1,7 @@
+import stroke from "../assets/stroke.png";
 import Lead from "../assets/Lead-image.png";
 import music1 from "../assets/music1.png";
-import stroke from "../assets/stroke.png";
+
 
 import collectimg1 from "../assets/Rectangle26.png";
 import collectimg2 from "../assets/Rectangle27.png";
