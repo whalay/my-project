@@ -32,6 +32,7 @@ export const chart = [
   export const collection = [
     { image: collectimg1, title: "limit", artist: "John Watts" },
     { image: collectimg2, title: "limit", artist: "John Watts" },
+    { image: collectimg2, title: "limit", artist: "John Watts" },
   ];
 
 export  const LatestSong = [
