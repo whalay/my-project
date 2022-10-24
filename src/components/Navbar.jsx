@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import menu from "../assets/menu1.png";
 import logo from "../assets/logo.png";
 import search from "../assets/search.png";
-import SideMenu from "./Sidemenu";
+import SideMenu from "./SideMenu";
 
 const Navbar = () => {
   const [showNav, setShownav] = useState(false);
