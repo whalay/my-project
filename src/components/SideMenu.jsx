@@ -42,10 +42,10 @@ const Menu = [
 
 const SideMenu = (props) => {
   return (
-    <div className="h-screen bg-zinc-800 block md:hidden relative z-50 ">
+    <div className="h-screen bg-zinc-800 block md:hidden relative z-90 ">
       <div className="flex flex-col justify-start gap-5 p-10">
         {Menu.map((menu) => (
-          <div className="flex justify-start gap-10 text-zinc-500 z-50">
+          <div className="flex justify-start gap-10 text-zinc-500 z-90">
             <span>
               <img src={menu.image} alt="" />
             </span>
