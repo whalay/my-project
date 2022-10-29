@@ -36,7 +36,7 @@ const Menu = [
   {
     image: logout,
     title: "Logout",
-    url: 'home'
+    url: '/home'
   },
 ];
 
