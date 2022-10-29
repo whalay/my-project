@@ -30,7 +30,7 @@ const Playing = () => {
         </div>
       </div>
       <div className="flex items-center gap-5">
-        <IoIosShuffle />
+        <IoIosShuffle className="hidden md:inline"/>
         <GiPreviousButton className="w-[30px] h-[30px] md:w-auto md:h-auto" />
         <div className="h-[40px] w-[40px] md:h-[25px] md:w-[25px] rounded-full bg-[#FACD66] grid place-items-center">
           {!isPlaying && <FaPlay onClick={() => setIsPlaying(true)} />}
