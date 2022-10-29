@@ -16,7 +16,7 @@ export const chart = [
     artist: "Swean Sadder",
     duration: "2:22:22",
     image: Lead,
-    logo: icon,
+    logo: music1,
   },
   {
     id: "2",
@@ -24,7 +24,7 @@ export const chart = [
     artist: "Swean Sadder",
     duration: "2:22:22",
     image: music1,
-    logo: icon,
+    logo: music1,
   },
   {
     id: "3",
@@ -32,7 +32,7 @@ export const chart = [
     artist: "Swean Sadder",
     duration: "2:22:22",
     image: rect,
-    logo: icon,
+    logo: music1,
   },
 ];
 
