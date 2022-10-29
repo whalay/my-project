@@ -56,7 +56,7 @@ export const LatestSong = [
     artist: "Sean Swadder",
   },
   {
-    id: '3',
+    id: '10',
     image: new1,
     title: "Golden age of 80's",
     artist: "Sean Swadder",
