@@ -1,4 +1,3 @@
-import Popular from "../components/Popular";
 import TopChart from "../components/TopChart";
 import Latest from "../components/Latest";
 
@@ -15,7 +14,7 @@ import mframe from "../assets/Mframe.png";
 
 const Header = () => {
   return (
-    <div className="container max-w-[450px] md:max-w-full bg-zinc-800 text-white px-1 pt-20 md:pt-20 md:pl-24 z-50">
+    <div className=" bg-zinc-800 text-white px-1 pt-20 md:pt-20 md:pl-24 z-50">
       <div className="md:flex justify-between gap-5 md:pr-10">
         <div className="relative md:flex-initial ">
           <img src={mobilerec} alt="" className="md:hidden m-auto" />
@@ -53,7 +52,6 @@ const Header = () => {
         <TopChart />
       </div>
       <Latest />
-      <Popular />
     </div>
   );
 };

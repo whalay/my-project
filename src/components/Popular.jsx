@@ -61,7 +61,7 @@ const Popular = () => {
       <h2 className="text-white text-2xl font-semibold">
         Popular in your area
       </h2>
-      <div className="flex gap-6 items-centre w-full overflow-x-auto mt-5 bar .bar">
+      <div className="flex gap-6 items-center w-full overflow-x-auto mt-5 bar .bar">
         {New.map((top) => (
           <div className="cursor-pointer text-white min-w-fit">
             <img src={top.image} alt="" className="" />

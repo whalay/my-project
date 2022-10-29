@@ -23,11 +23,11 @@ const TopChart = (props) => {
               </div>
             </Link>
             <span>
-              {/* <img
+              <img
                 src={chat.logo}
                 alt=""
                 className="border p-2 rounded-full "
-              /> */}
+              /> 
             </span>
           </div>
         ))}

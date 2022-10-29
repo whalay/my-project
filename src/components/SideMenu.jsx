@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import home from "../assets/sidebar/Home.png";
+import home from "../assets/sidebar/home.svg";
 import frame from "../assets/sidebar/frame.png";
 import radio from "../assets/sidebar/radio.png";
 import music from "../assets/sidebar/music.png";
@@ -42,10 +42,10 @@ const Menu = [
 
 const SideMenu = (props) => {
   return (
-    <div className="h-screen bg-zinc-800 block md:hidden relative ">
+    <div className="h-screen bg-zinc-800 block md:hidden relative z-50 ">
       <div className="flex flex-col justify-start gap-5 p-10">
         {Menu.map((menu) => (
-          <div className="flex justify-start gap-10 text-zinc-500">
+          <div className="flex justify-start gap-10 text-zinc-500 z-50">
             <span>
               <img src={menu.image} alt="" />
             </span>
@@ -54,8 +54,7 @@ const SideMenu = (props) => {
           </div>
         ))}
       </div>
-      <span claz        
-      ssName="absolute top-2 right-2 p-10"><button onClick={props.navHandler}>close</button></span>
+      <span className="absolute top-2 right-2 p-10 text-white font-semibold"><button onClick={props.navHandler}>close</button></span>
     </div>
   );
 };
