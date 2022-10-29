@@ -1,4 +1,4 @@
-import icon from "../assets/stroke.png";
+
 import Lead from "../assets/Lead-image.png";
 import music1 from "../assets/music1.png";
 import rect from "../assets/Rectangle17.png";
