@@ -14,7 +14,7 @@ import mframe from "../assets/Mframe.png";
 
 const Header = () => {
   return (
-    <div className=" bg-zinc-800 text-white px-5 pt-20 md:pt-20 md:pl-24 z-50">
+    <div className="h-screen w-full bg-zinc-800 text-white px-5 pt-20 md:pt-20 md:pl-24 z-50">
       <div className="md:flex justify-between gap-5 md:pr-10">
         <div className="relative md:flex-initial ">
           <img src={mobilerec} alt="" className="md:hidden m-auto" />

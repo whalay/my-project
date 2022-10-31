@@ -2,6 +2,7 @@
 import Lead from "../assets/Lead-image.png";
 import music1 from "../assets/music1.png";
 import rect from "../assets/Rectangle17.png";
+import heart from "../assets/heart.png";
 
 import collectimg1 from "../assets/Rectangle26.png";
 import collectimg2 from "../assets/Rectangle27.png";
@@ -16,7 +17,7 @@ export const chart = [
     artist: "Swean Sadder",
     duration: "2:22:22",
     image: Lead,
-    logo: music1,
+    logo: heart,
   },
   {
     id: "2",
@@ -24,7 +25,7 @@ export const chart = [
     artist: "Swean Sadder",
     duration: "2:22:22",
     image: music1,
-    logo: music1,
+    logo: heart,
   },
   {
     id: "3",
@@ -32,7 +33,7 @@ export const chart = [
     artist: "Swean Sadder",
     duration: "2:22:22",
     image: rect,
-    logo: music1,
+    logo: heart,
   },
 ];
 
